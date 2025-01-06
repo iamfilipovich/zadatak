@@ -1,0 +1,75 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.hero {
+    color: beige;
+    padding: 20px 0;
+    font-family: 'Roboto+Condensed';
+}
+
+.nav {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.logo {
+    color: black;
+    font-size: 28px;
+    font-family: 'Roboto+Condensed';
+    font-weight: bold;
+}
+
+span {
+    color: #CFB284;
+    font-family: 'Roboto+Condensed';
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex; 
+    gap: 20px; 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #CFB284;
+}
+
+button {
+    border: none;
+    background: #0088a9;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover {
+    cursor: pointer;
+}

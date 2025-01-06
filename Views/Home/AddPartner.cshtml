@@ -1,0 +1,75 @@
+﻿@model Wiener.Models.Partner
+
+@{
+    ViewData["Title"] = "Add New Partner";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form method="post" asp-action="AddPartner" asp-controller="Home">
+    <div class="form-group">
+        <label for="FirstName">First Name</label>
+        <input type="text" class="form-control" id="FirstName" name="FirstName" value="@Model.FirstName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="LastName">Last Name</label>
+        <input type="text" class="form-control" id="LastName" name="LastName" value="@Model.LastName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Address">Address (Optional)</label>
+        <input type="text" class="form-control" id="Address" name="Address" value="@Model.Address" />
+    </div>
+
+    <div class="form-group">
+        <label for="PartnerNumber">Partner Number (Exactly 20 numbers)</label>
+        <input type="text" class="form-control" id="PartnerNumber" name="PartnerNumber" value="@Model.PartnerNumber" required />
+    </div>
+
+    <div class="form-group">
+        <label for="CroatianPIN">Croatian PIN (11 numbers, optional)</label>
+        <input type="text" class="form-control" id="CroatianPIN" name="CroatianPIN" value="@Model.CroatianPIN" />
+    </div>
+
+    <div class="form-group">
+        <label for="PartnerTypeId">Partner Type</label>
+        <select class="form-control" id="PartnerTypeId" name="PartnerTypeId">
+            <option></option>
+            <option value="1">Personal</option>
+            <option value="2">Legal</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CreateByUser">Created By User</label>
+        <input type="text" class="form-control" id="CreateByUser" name="CreateByUser" value="@Model.CreateByUser" required />
+    </div>
+
+    <div class="form-group">
+        <label for="IsForeign">Is Foreign</label>
+        <input type="checkbox" id="IsForeign" name="IsForeign" value="true" @(Model.IsForeign ? "checked" : "") />
+    </div>
+
+    <div class="form-group">
+        <label for="ExternalCode">External Code (Min. 10 Max. 20 characters)</label>
+        <input type="text" class="form-control" id="ExternalCode" name="ExternalCode" value="@Model.ExternalCode" />
+    </div>
+
+    <div class="form-group">
+        <label for="Gender">Gender</label>
+        <select class="form-control" id="Gender" name="Gender">
+            <option></option>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <button style="background-color: #0088a9" type="submit" class="btn btn-primary">Add Partner</button>
+    </div>
+</form>
+
+<a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">Back</a>
