@@ -1,11 +1,4 @@
-﻿using System.Data;
-using System.Data.Common;
-using System.Text.RegularExpressions;
-using Dapper;
-using Microsoft.Data.SqlClient;
-using Microsoft.EntityFrameworkCore;
-using Wiener.Models;
-using Wiener.Repositories.Abstract;
+﻿
 
 namespace Wiener.Repositories.Implementation
 {

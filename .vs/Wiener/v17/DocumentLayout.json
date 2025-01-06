@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\folop\\source\\repos\\Wiener\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A8119797-3B03-4C07-B5BE-772763E30F37}|Wiener.csproj|c:\\users\\folop\\source\\repos\\wiener\\repositories\\implementation\\partnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8119797-3B03-4C07-B5BE-772763E30F37}|Wiener.csproj|solutionrelative:repositories\\implementation\\partnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8119797-3B03-4C07-B5BE-772763E30F37}|Wiener.csproj|c:\\users\\folop\\source\\repos\\wiener\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8119797-3B03-4C07-B5BE-772763E30F37}|Wiener.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8119797-3B03-4C07-B5BE-772763E30F37}|Wiener.csproj|c:\\users\\folop\\source\\repos\\wiener\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A8119797-3B03-4C07-B5BE-772763E30F37}|Wiener.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "PartnerService.cs",
+              "DocumentMoniker": "C:\\Users\\folop\\source\\repos\\Wiener\\Repositories\\Implementation\\PartnerService.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementation\\PartnerService.cs",
+              "ToolTip": "C:\\Users\\folop\\source\\repos\\Wiener\\Repositories\\Implementation\\PartnerService.cs",
+              "RelativeToolTip": "Repositories\\Implementation\\PartnerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:57:42.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "C:\\Users\\folop\\source\\repos\\Wiener\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "GlobalUsing.cs",
+              "ToolTip": "C:\\Users\\folop\\source\\repos\\Wiener\\GlobalUsing.cs",
+              "RelativeToolTip": "GlobalUsing.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T20:57:34.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\folop\\source\\repos\\Wiener\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -38,12 +72,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T00:48:19.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T00:48:19.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AddPolicyViewModel.cs",
               "DocumentMoniker": "C:\\Users\\folop\\source\\repos\\Wiener\\Models\\DTO\\AddPolicyViewModel.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\AddPolicyViewModel.cs",
@@ -51,12 +84,11 @@
               "RelativeToolTip": "Models\\DTO\\AddPolicyViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:49:59.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T16:49:59.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AddPolicy.cshtml",
               "DocumentMoniker": "C:\\Users\\folop\\source\\repos\\Wiener\\Views\\Home\\AddPolicy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\AddPolicy.cshtml",
@@ -64,12 +96,11 @@
               "RelativeToolTip": "Views\\Home\\AddPolicy.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-28T15:00:15.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T15:00:15.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\folop\\source\\repos\\Wiener\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
